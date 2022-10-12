@@ -7,11 +7,11 @@
  * Since:   2022-09-17
  */
 
-import Stack from './Stack'
+import MrCoxallStack from './MrCoxallStack'
 import promptSync from 'prompt-sync'
 
 const prompt = promptSync()
-const myStack = new Stack()
+const myStack = new MrCoxallStack()
 
 // Input & Process
 while (true) {
